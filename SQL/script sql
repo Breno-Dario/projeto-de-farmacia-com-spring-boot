@@ -1,0 +1,14 @@
+
+CREATE TABLE `item` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `description` varchar(255) DEFAULT NULL,
+  `price` double NOT NULL,
+  `quatity` double NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+INSERT INTO `item` VALUES (2,'Bromoprída Medicação',34.95,19,'Bromoprida'),(3,'medicamento para dor',13.8,60,'paracetamol'),(4,'Medicamento para nariz',6.9,20,'loratadina'),(5,'Medicamento para dor',50.99,70,'Morfina'),(6,'Medicamento para dor muscular',19.99,30,'Miorrelax');
+
+
